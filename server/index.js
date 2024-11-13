@@ -31,7 +31,7 @@ app.use(express.urlencoded({ extended: false}));
 app.use('/server/booking', bookingRouter);
 app.use('/server/booked', bookedRouter);
 
-app.use('/server/payment', paymentRouter);
+// app.use('/server/payment', paymentRouter);
 
 app.use((err, req, res, next) => {
     const statusCode = err.statusCode || 500;

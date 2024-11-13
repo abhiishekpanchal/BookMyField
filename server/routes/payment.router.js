@@ -1,9 +1,9 @@
-import express from 'express';
-import { makePayment, validatePayment } from '../controllers/payment.controller.js';
+// import express from 'express';
+// import { makePayment, validatePayment } from '../controllers/payment.controller.js';
 
-const router = express.Router();
+// const router = express.Router();
 
-router.post('/pay', makePayment);
-router.get('/getPay', validatePayment);
+// router.post('/pay', makePayment);
+// router.get('/getPay', validatePayment);
 
-export default router;
+// export default router;
